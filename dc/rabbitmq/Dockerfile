@@ -1,6 +1,6 @@
 FROM rabbitmq
 
 ADD create_user.sh /
-ADD start.sh /
+ADD run.sh /
 
-CMD ["/start.sh"]
+CMD ["/run.sh"]
