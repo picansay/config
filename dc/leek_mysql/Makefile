@@ -3,5 +3,6 @@ build:
 	docker build -t "secok-mysql:latest" .
 
 clean:
+	rm -f dist.tar.gz
 
 all:build
